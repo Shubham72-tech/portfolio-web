@@ -28,5 +28,7 @@
   }
   body {
     background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(26, 0, 97), rgb(18, 110, 0), rgb(150, 147, 0), rgb(255, 0, 0));
-
+    .transparent{
+        background:rgba(1,1,1,0.5);
+    }
   }
