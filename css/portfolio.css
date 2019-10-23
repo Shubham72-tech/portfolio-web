@@ -27,8 +27,12 @@
     margin-top:30px;
   }
   body {
-    background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(26, 0, 97), rgb(18, 110, 0), rgb(150, 147, 0), rgb(255, 0, 0));
+    background: linear-gradient(to bottom, rgb(129, 0, 0), rgb(0, 0, 0), rgb(0, 21, 88), rgb(150, 147, 0), rgb(103, 0, 199));
     .transparent{
         background:rgba(1,1,1,0.5);
     }
+    
   }
+  .tab-pane{
+    text-align: justify;
+}
