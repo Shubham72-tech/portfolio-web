@@ -147,10 +147,23 @@
             </div>
             <div class="jumbotron-fluid text-center five" id="five">
                 <form action=" https://formsubmit.co/arhammusheer@gmail.com " method="POST">
-                    <input type="text" name="name">
-                    <input type="email" name="email">
-                    <input type="text" name="tel">
-                    <button type="submit">Send</button>
+                <form>
+                    <div class="form-group">
+                        <label for="FormEmail">Email address</label>
+                        <input type="email" class="form-control" id="FormEmailInput" placeholder="name@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="FormName">Name</label>
+                        <input type="text" class="form-control" id="FormNameInput" placeholder="John Doe">
+                    </div>
+                    <div class="form-group">
+                        <label for="FormMessage">Your Message</label>
+                        <textarea class="form-control" id="FormMessageInput" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-dark">Send</button>
+                </form>
+                    
+
                 </form>
             </div>
         </div>
